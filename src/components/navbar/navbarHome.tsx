@@ -8,7 +8,7 @@ import {Home as HomeIcon} from '@mui/icons-material'
 export default function NavBarHome() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
           <IconButton
             size="large"

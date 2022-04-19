@@ -93,6 +93,14 @@ export default function Register(){
               margin="dense"
               fullWidth
             />
+            <TextField
+              required
+              id="outlined-password-input"
+              label="Confirmação de Senha"
+              type="password"
+              margin="dense"
+              fullWidth
+            />
             <Button
               type="submit"
               variant="contained"

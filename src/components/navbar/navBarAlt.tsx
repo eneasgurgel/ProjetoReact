@@ -8,7 +8,7 @@ import {ArrowBack as ArrowBackIcon} from '@mui/icons-material'
 export default function NavBarAlt() {
   return (
     <Box sx={{ flexGrow: 1, mb: 15}}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
           <IconButton
             size="large"
